@@ -1,0 +1,15 @@
+Validate all inputs - first to string then to utf-8, catch validation
+errors and complain. ~I can't remember what this was, so consider it done :P 22/03/2013
+
+Catch web errors, most try to keep going, attempt to determine which
+ones are show stoppers and which are not, catch url errors as well they
+indicate unreachable server ~done 22/04/2013
+
+Catch any other errors from the job worker thread and log + inform user
+to send log to me, log minimum traceback, request made and response if any ~done 9/08/2013
+
+create a class that wraps the json responses from 1eden up, possible methods (was_error, was_fatal_error, parent_thread)
+
+put an image box under neath the fire button for users, similar to comments box but just for general use
+
+use the board api to refresh the list of boards on app startup
